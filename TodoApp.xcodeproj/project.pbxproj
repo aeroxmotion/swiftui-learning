@@ -14,6 +14,8 @@
 		B26DFE32286A743900B8E861 /* TodoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26DFE31286A743900B8E861 /* TodoAppTests.swift */; };
 		B26DFE3C286A743900B8E861 /* TodoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26DFE3B286A743900B8E861 /* TodoAppUITests.swift */; };
 		B26DFE3E286A743900B8E861 /* TodoAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26DFE3D286A743900B8E861 /* TodoAppUITestsLaunchTests.swift */; };
+		B26DFE4B286A77E000B8E861 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26DFE4A286A77E000B8E861 /* CircleImage.swift */; };
+		B26DFE4D286A79AF00B8E861 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26DFE4C286A79AF00B8E861 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		B26DFE37286A743900B8E861 /* TodoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B26DFE3B286A743900B8E861 /* TodoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoAppUITests.swift; sourceTree = "<group>"; };
 		B26DFE3D286A743900B8E861 /* TodoAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B26DFE4A286A77E000B8E861 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		B26DFE4C286A79AF00B8E861 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 				B26DFE20286A743800B8E861 /* TodoAppApp.swift */,
 				B26DFE22286A743800B8E861 /* ContentView.swift */,
 				B26DFE24286A743900B8E861 /* Assets.xcassets */,
+				B26DFE4A286A77E000B8E861 /* CircleImage.swift */,
+				B26DFE4C286A79AF00B8E861 /* MapView.swift */,
 				B26DFE26286A743900B8E861 /* Preview Content */,
 			);
 			path = TodoApp;
@@ -258,7 +264,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B26DFE23286A743800B8E861 /* ContentView.swift in Sources */,
+				B26DFE4D286A79AF00B8E861 /* MapView.swift in Sources */,
 				B26DFE21286A743800B8E861 /* TodoAppApp.swift in Sources */,
+				B26DFE4B286A77E000B8E861 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
